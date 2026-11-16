@@ -1,81 +1,86 @@
-📱 INFINITY Focus Reminder
+Kotlin Android Projects
 
-A native Android application developed using Kotlin, designed to support productivity through focus tools, activity tracking, and app management features.
+A collection of native Android application projects built with Kotlin. This folder contains compiled APK builds for the applications listed below.
 
-⚙️ App Features & Tech Stack
+«Note: The APKs are provided as compiled builds. The original source-code environment for INFINITY Focus Reminder was reset, so its complete Kotlin source is not currently available in this repository.»
 
-- Language: Kotlin
-- UI Design: XML Layouts & Custom Components
-- Architecture: Activity & Intent Handling
-- Backend: Firebase
-- Productivity System: Productivity Points & Leaderboard
-- Smart Shield: DNS-based website filtering
-- App Management: App Lock
-- Status: Compiled APK Builds Available
+Projects
+
+- "INFINITY Focus Reminder" (#-infinity-focus-reminder) — productivity and focus application.
+- "Unit Converter" (#-unit-converter) — Android unit-conversion utility.
 
 ---
 
-✨ Key Features
+✨ INFINITY Focus Reminder
 
-- Productivity Tracking: Track productivity activities.
-- Points System: Earn productivity points through activity logs.
-- Leaderboard: View productivity rankings.
-- Smart Shield: DNS-based filtering for adult websites.
-- App Lock: Lock selected applications.
-- Firebase Integration: Backend connectivity for supported features.
+A native Android application designed to support productivity through activity tracking, focus tools, and app-management features.
 
----
+Features
 
-📦 APK Downloads
+- Productivity Tracking — record productivity activities.
+- Points System — earn points through productivity logs.
+- Leaderboard — view productivity rankings.
+- Smart Shield — DNS-based filtering for adult websites.
+- App Lock — lock selected applications.
+- Firebase Integration — backend support for app features.
 
-Two compiled APK builds are available in this repository.
+Technology
 
-🆕 New Version
+Area| Technology
+Language| Kotlin
+UI| XML layouts and custom components
+App structure| Activities and Intents
+Backend| Firebase
+Platform| Android
 
-File: "INFINITYFocusReminder.apk"
+APK Downloads
 
-- Login System
-- Firebase Integration
-- Productivity Points
-- Leaderboard
-- Smart Shield
-- App Lock
+Two builds are preserved in this repository:
 
-"⬇️ Download New Version" (./INFINITYFocusReminder.apk)
+Build| File size| Download
+New version — includes a login system| 8.75 MiB| "Download APK" (https://raw.githubusercontent.com/infinityminds-dev/infinityminds_Learning_Programming/main/Kotlin/INFINITYFocusReminder.apk)
+Old version — original experience without the login screen| 4.83 MiB| "Download APK" (https://raw.githubusercontent.com/infinityminds-dev/infinityminds_Learning_Programming/main/Kotlin/INFINITYFocus_Reminder_v1.apk)
 
-🕰️ Old Version
+Both builds are kept separately for preservation and testing. Features can differ between versions.
 
-File: "INFINITYFocus_Reminder_v1.apk"
+Development note
 
-- No Login Screen
-- Original application experience
-- Core productivity features
-
-"⬇️ Download Old Version" (./INFINITYFocus_Reminder_v1.apk)
-
-Both builds are preserved separately for testing and historical reference.
+The original source-code environment was reset. The compiled APKs were recovered from the repository's Git history and are maintained here as available application builds.
 
 ---
 
-🛠️ Development Status
+🔄 Unit Converter
 
-The original source code environment was reset, so the complete Kotlin source code is currently unavailable.
+A native Android utility for converting values between supported measurement units.
 
-However, the compiled APK builds were preserved through the repository's GitHub commit history. 
+APK Download
 
-The available application binaries are maintained in this repository.
+File| File size| Download
+"UnitConverter.apk"| 10.43 MiB| "Download APK" (https://raw.githubusercontent.com/infinityminds-dev/infinityminds_Learning_Programming/main/Kotlin/UnitConverter.apk)
 
----
-
-📌 Project Information
-
-Project: INFINITY Focus Reminder
-Platform: Android
-Development Language: Kotlin
-UI: XML Layouts & Custom Components
-Backend: Firebase
-Build Availability: Compiled APK Files
+«Detailed information about the converter's supported unit categories and implementation will be added when its project documentation is available.»
 
 ---
 
-Developed as part of the INFINITYMinds projects.
+📥 Installation
+
+1. Open the APK download link for the application you want.
+2. Download the APK file to your Android device.
+3. Open the downloaded file and follow Android's installation prompts.
+4. If Android asks for permission to install apps from that source, review the prompt and allow it only if you trust the APK and its origin.
+
+Only install APK files you trust. Android may display a security warning for apps installed outside the Play Store.
+
+---
+
+📁 Folder Contents
+
+File| Description
+"INFINITYFocusReminder.apk"| INFINITY Focus Reminder — new build
+"INFINITYFocus_Reminder_v1.apk"| INFINITY Focus Reminder — old build
+"UnitConverter.apk"| Unit Converter build
+"README.md"| Kotlin projects documentation
+
+---
+
+Part of the INFINITYMinds Learning Programming repository.
